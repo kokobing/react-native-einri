@@ -1,5 +1,8 @@
-import Text from './src/Text';
+import Welcome from './src/Welcome';
+import Basebar from './src/NavigationBar/Basebar';
 
 module.exports = {
-    Text
+    Welcome,
+    Basebar
+
 }
