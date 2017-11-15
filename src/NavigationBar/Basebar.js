@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Text, View, Image,StyleSheet, StatusBar, Dimensions } from 'react-native';
+import { Text, View, Image, StyleSheet, StatusBar, Dimensions } from 'react-native';
 const { width, height } = Dimensions.get('window');
-
-
 
 
 export default class Basebar extends Component {
@@ -48,27 +46,7 @@ export default class Basebar extends Component {
   }
 
 
-  //存在背景图
-  _renderImage() {
-    var { height, backgroundcolor, color, fontsize, title, lefticon, righticon } = this.props;
-    return (
-      <Image style={[styles.container, {height: height,}]}
-             source={{ uri: 'http://img.hb.aicdn.com/3a3ce5f235183ee74486057ae6dbdaf4916df57294ade-lQgCPE_fw658' }}
-             //组件高度 背景颜色 this.props.height
-      >
-        <Text>
-          1111
-        </Text>
-
-      </Image>
-    )
-  }
-
-
-
-  //不存在背景图
-
-  _renderNoimage() {
+  render() {
     var { height, backgroundcolor, color, fontsize, title, lefticon, righticon } = this.props;
     return (
       <View style={[styles.container, {
@@ -96,20 +74,7 @@ export default class Basebar extends Component {
 
       </View>
     )
-  }
 
-
-
-  render() {
-    if (this.props.imageurl) {//判断是否存在图片
-        return (
-          this._renderImage()//存在背景图
-        )
-    }else{
-      return (
-        this._renderNoimage()//无图
-      )
-    }
   }
 
 
