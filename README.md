@@ -19,7 +19,7 @@
 
     * 1、NavigationBar with Basebar  
 
-![](https://github.com/Kokobing/react-native-einri/blob/master/temp/1.jpg)    
+    ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/1.jpg)    
 
        import Ionicons from 'react-native-vector-icons/Ionicons';  
        import { Basebar} from './react-native-einri/index';
@@ -37,9 +37,10 @@
         
         
 
+
     * 2、NavigationBar with BarImage  
  
- ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/2.jpg)  
+    ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/2.jpg)  
  
         import Ionicons from 'react-native-vector-icons/Ionicons';
         import { BarImage } from './react-native-einri/index';  
