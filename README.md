@@ -19,6 +19,7 @@
 
 1、NavigationBar with Basebar
 
+       import Ionicons from 'react-native-vector-icons/Ionicons';  
        import { Basebar} from './react-native-einri/index';
   
         <Basebar  
@@ -35,6 +36,7 @@
         
  1、NavigationBar with BarImage  
  
+        import Ionicons from 'react-native-vector-icons/Ionicons';
         import { BarImage } from './react-native-einri/index';  
        
         <BarImage  
