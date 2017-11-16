@@ -22,7 +22,7 @@
 ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/1.jpg)    
 
        import Ionicons from 'react-native-vector-icons/Ionicons';  
-       import { Basebar} from './react-native-einri/index';
+       import { Basebar} from 'react-native-einri';
   
         <Basebar  
           title='积跬步行千里'  
@@ -41,7 +41,7 @@
 ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/2.jpg)  
  
         import Ionicons from 'react-native-vector-icons/Ionicons';
-        import { BarImage } from './react-native-einri/index';  
+        import { BarImage } from 'react-native-einri';  
        
         <BarImage  
           title='积跬步行千里'  
