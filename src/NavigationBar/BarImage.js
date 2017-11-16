@@ -23,7 +23,7 @@ export default class BaseImage extends Component {
 
 
   render() {
-    var { height, color, fontsize, title } = this.props;
+    var { height, color, fontsize, title, imageurl } = this.props;
 
 
     const styles = StyleSheet.create({
@@ -50,7 +50,7 @@ export default class BaseImage extends Component {
     return (
       <View style={styles.container}>
         <Image style={{width:width , height: height }}
-          source={{ uri: 'http://img.hb.aicdn.com/3a3ce5f235183ee74486057ae6dbdaf4916df57294ade-lQgCPE_fw658' }} />
+          source={{ uri: imageurl }} />
           
         <View style={styles.textboxstyle}>
               
