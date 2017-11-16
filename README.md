@@ -40,7 +40,6 @@
  
 ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/2.jpg)  
  
-        import Ionicons from 'react-native-vector-icons/Ionicons';
         import { BarImage } from 'react-native-einri';  
        
         <BarImage  
