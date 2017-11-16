@@ -17,7 +17,8 @@
  使用
 ===========================
 
-* 1、NavigationBar with Basebar  
+    * 1、NavigationBar with Basebar  
+
 ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/1.jpg)    
 
        import Ionicons from 'react-native-vector-icons/Ionicons';  
@@ -36,7 +37,8 @@
         
         
 
- * 2、NavigationBar with BarImage  
+    * 2、NavigationBar with BarImage  
+ 
  ![](https://github.com/Kokobing/react-native-einri/blob/master/temp/2.jpg)  
  
         import Ionicons from 'react-native-vector-icons/Ionicons';
