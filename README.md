@@ -1,11 +1,11 @@
 # react-native-einri
 
-一个自用的REACT-NATIVE UI组件库，正在完善......  
+一个自用的REACT-NATIVE UI组件库，正在完善......   
 
 
  安装
 ===========================
- 1、需要先安装 react-native-vector-icons 图标组件库  
+ 1、需要先安装 react-native-vector-icons  图标组件库   
  
      npm install react-native-vector-icons --save  
      react-native link  
