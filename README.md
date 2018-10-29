@@ -10,6 +10,7 @@
      npm install react-native-vector-icons --save  
      react-native link  
      
+     
  2、安装react-native-einri  
  
      npm install --save react-native-einri  
